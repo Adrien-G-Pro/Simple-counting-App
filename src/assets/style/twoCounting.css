@@ -1,0 +1,21 @@
+.twoCounting hr {
+  margin-top: 5rem;
+  width: 10rem;
+  background-color: blue;
+  height: 0.2rem;
+}
+
+@media all and (min-width: 899px) {
+  .twoCounting {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 8rem;
+  }
+
+  .twoCounting hr {
+    margin-top: 10rem;
+    height: 23rem;
+    background-color: blue;
+    width: 0.2rem;
+  }
+}

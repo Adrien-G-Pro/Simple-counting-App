@@ -1,0 +1,40 @@
+.titleApp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media all and (max-width: 799px) {
+    .titleApp {
+        padding: 0 2rem;
+    }
+}
+
+.titleApp h1 {
+    font-family: Roboto-bold, sans-serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+@media all and (max-width: 799px) {
+    .titleApp h1 {
+        font-size: 2rem;
+    }
+}
+
+.titleApp a {
+    text-decoration: none;
+    color: black;
+    border: 0.1rem solid blue;
+    padding: 0.5rem;
+    border-radius: 1rem;
+    font-family: Inter, sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+@media all and (max-width: 799px) {
+    .titleApp a {
+        font-size: 1.3rem;
+    }
+}

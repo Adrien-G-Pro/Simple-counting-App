@@ -1,0 +1,59 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  font-family: Inter, sans-serif;
+  text-decoration: none;
+}
+
+@media all and (max-width: 799px) {
+  .home {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+.home h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.home div {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+@media all and (max-width: 799px) {
+  .home div {
+    display: flex;
+    flex-direction: column;
+    padding: 0 7rem;
+    gap: 3rem;
+    margin-top: 4rem;
+  }
+}
+
+@media all and (max-width: 350px) {
+  .home div {
+    padding: 0 5rem;
+  }
+}
+
+.home div a {
+  text-decoration: none;
+  color: black;
+  font-size: 3rem;
+  border: 0.2rem solid black;
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+@media all and (max-width: 270px) {
+    .home div a {
+        padding: 0.5rem;
+        font-size: 2rem;
+    }
+}
